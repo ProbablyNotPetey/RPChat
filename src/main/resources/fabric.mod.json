@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "rpchat",
+  "version": "1.0.0",
+
+  "name": "RP Chat",
+  "description": "Simple mod that adds some chat features useful for RP servers.",
+  "authors": [
+    "Vivi"
+  ],
+  "contact": {
+    "sources": "https://github.com/ProbablyNotPetey/rpchat",
+    "issues": "https://github.com/ProbablyNotPetey/rpchat/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/rpchat/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.vivi.rpchat.RPChat"
+    ]
+  },
+  "mixins": [
+    "rpchat.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

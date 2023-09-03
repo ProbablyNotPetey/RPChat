@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.vivi.rpchat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+
+  ],
+  "server": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
